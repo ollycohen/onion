@@ -7,14 +7,31 @@
 html,
 body
 {
-    height: 100vh;
+    height: 1500px;
     font-family: 'Poppins';
+    background-color: #2E5D12;
 }
 
 .webgl
 {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     outline: none;
+    /* mix-blend-mode: exclusion; */
+}
+
+h1 {
+    text-align: center;
+    color:#BFA169;
+    font-family: 'Copperplate';
+    padding-top: 20%;
+}
+
+h6 {
+    text-align: center;
+    margin-top: -2%;
+    font-family: 'Copperplate';
+    letter-spacing:5px;
+    color:#BFA169;
 }

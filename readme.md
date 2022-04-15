@@ -1,4 +1,7 @@
-# Three.js Starter
+# Onion Records
+Website for Onion Records 
+
+## Three.js Starter
 Courtesy of Bruno Simon of https://threejs-journey.xyz/
 
 ## Setup

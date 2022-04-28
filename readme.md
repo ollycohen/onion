@@ -18,3 +18,7 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
+## Goal
+Recreate onion logo in 3D
+![Alt text](https://github.com/ollycohen/onion/blob/master/static/onionLogo.png "Onion Logo")
+

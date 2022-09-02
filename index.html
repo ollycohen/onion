@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src = "menuDisplay.js"></script>
+  <script type="module" src="viewer.js"></script>
+</head>
+<body>
+ 
+  <nav class="top">
+    <div class="row">
+      <div class="col">
+        <a class="onion-text" href="mailto:onionrecords@gmail.com">onionrecords@gmail.com</a>
+      </div>
+      <div style="text-align: right;margin-right: 5px;" class="col">
+        <a class="onion-text" target="_blank" href="https://goo.gl/maps/MPNuwypzW4fDMCYH9">East Williamsburg</a>
+      </div>
+    </div>
+  </nav>
+  <div class="wrap">
+    <div class="viewer"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <button class="col navbar menu-item onion-text" id="studio-btn">Studio</button>
+      <button class="col navbar menu-item onion-text" id="artist-btn">Artists</button>
+      <button class="col navbar menu-item onion-text" id="about-btn">About</button>
+    </div>
+  </div>
+
+  <div id="sections-block" class="container">
+    <div class="container section" id="studio">
+      <img id="studio-img" src="/assets/studio.jpeg"/>
+    </div>
+    <div class="container section" id="artist">
+        <br><br>
+        <div class="row">
+          <div class="artist-div col-sm-6">
+            <a target="_blank" href="https://linktr.ee/thingthething">
+              <img class="artist-img" src="/assets/thing.png"/>
+            </a>
+          </div>
+          <div class="artist-div col-sm-6">
+            <a target="_blank" href="https://linktr.ee/tenniscourts">
+              <img href="https://linktr.ee/tenniscourts" class="artist-img" src="/assets/tenniscourts.png"/>
+            </a>
+          </div>
+        </div>
+    </div>
+    <div class="container section" id="about">
+        <div class="onion-text" id="bio">
+          <p>
+            Onion Records is a boutique studio and label in East Williamsburg, Brooklyn. We produce timeless analog music and specialize in band recording. 
+          </p>
+          <!-- <p>
+            We are looking for projects that are aiming to get across a feeling rather than certain sonic qualities. There is something to be said about imperfections in a song and not having things too polished. We love the rock & roll attitude and believe that what you capture in the moment is special and not to be tampered with. That's why a voice memo can have more feel than a song recorded in the best quality studio. If you are willing to work and take risks, then take a chance on us. Let’s make some magic! 
+          </p> -->
+          <p>
+            <b>Our services:</b> Full Band Recordings & Overdubbing, Rehearsal Space, Voice Over Dialogue, Advertising Projects, Video & Photography, and Mixing. Clients can work with in-house engineers or operate the studio with certified personnel. 
+          </p>
+          <p>
+            Contact us at 
+            <a class="onion-text" href="mailto:onionrecords@gmail.com">onionrecords@gmail.com</a>.
+
+          </p>
+        </div>
+    </div>
+  </div>
+ 
+</body>

@@ -31,7 +31,6 @@ body {
   position: absolute;
   top: 0;
   z-index: 0;
-  
 }
 
 
@@ -43,13 +42,8 @@ body {
   border: none;
   background-color: transparent;
 }
-.top{
-    color: #EECE93;
-    letter-spacing: 3px;
-    font-variant: small-caps;
-    text-decoration: none;
+.nav{
     margin-left: 10px;
-    font-size: small;
 }
 .section{
   margin-top: 5%;
@@ -78,3 +72,17 @@ body {
   width: 100%;
 }
 
+#nav-address{
+  text-align: right; 
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@media screen and (max-width:500px) {
+  .nav{
+    text-align: right;
+  }
+}

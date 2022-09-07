@@ -1,6 +1,8 @@
 const studio = `
 <div class="container section" id="studio">
-    <img id="studio-img" src="/assets/studio.jpeg"/>
+    <a class="onion-text" target="_blank" href="https://goo.gl/maps/WjSqwvhFEwCmNScv6">
+        <img id="studio-img" src="/assets/studio.jpeg"/>
+    </a>
 </div>
 `
 

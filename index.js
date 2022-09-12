@@ -13,7 +13,6 @@ const studio = `
             <img class="studio-img" src="/assets/studio3.jpg"/>
         </div>
     </div>
-
 </div>
 `
 

@@ -1,6 +1,19 @@
 const studio = `
 <div class="container section" id="studio">
-    <img id="studio-img" src="/assets/studio.jpeg"/>
+    <div class="row">
+        <div class="col">
+            <img class="studio-img" src="/assets/studio1.jpg"/>
+            
+        </div>
+    </div>
+    <div class="row" id="vertical-imgs">
+        <div class="col-md-6">
+            <img class="studio-img" src="/assets/studio2.jpg"/>
+        </div>
+        <div class="col-md-6">
+            <img class="studio-img" src="/assets/studio3.jpg"/>
+        </div>
+    </div>
 </div>
 `
 
@@ -53,7 +66,7 @@ function showSection(sectionToShow){
         if (sectionToShow == curId){
             $("#"+curId+"-btn").css('font-weight','bolder')
         }else{
-            $("#"+curId+"-btn").css('font-weight','normal')
+            $("#"+curId+"-btn").css('font-weight','lighter')
         }
     })
     

@@ -12,6 +12,14 @@ body {
   box-sizing: border-box;
 }
 
+a:hover{
+  color: white !important;
+  font-weight: 800;
+}
+
+button:hover{
+  font-weight: 800 !important;
+}
 
 
 .wrap {
@@ -79,6 +87,8 @@ body {
 #vertical-imgs{
   margin-top: 20px;
 }
+
+
 
 @viewport {
   width: device-width ;

@@ -63,7 +63,7 @@ function showSection(sectionToShow){
     $("#menu").children().each(function(){
         var curId =  $(this).attr('id').slice(0,-4)
         if (sectionToShow == curId){
-            $("#"+curId+"-btn").css('font-weight','bolder')
+            $("#"+curId+"-btn").css('font-weight','800')
         }else{
             $("#"+curId+"-btn").css('font-weight','lighter')
         }

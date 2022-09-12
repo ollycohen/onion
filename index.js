@@ -3,7 +3,6 @@ const studio = `
     <div class="row">
         <div class="col">
             <img class="studio-img" src="/assets/studio1.jpg"/>
-            
         </div>
     </div>
     <div class="row" id="vertical-imgs">
@@ -14,6 +13,7 @@ const studio = `
             <img class="studio-img" src="/assets/studio3.jpg"/>
         </div>
     </div>
+
 </div>
 `
 
